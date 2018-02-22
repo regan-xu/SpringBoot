@@ -1,0 +1,88 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.learn</groupId>
+	<artifactId>HellowSpringBoot</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>HellowSpringBoot</name>
+	<description>Demo project for Spring Boot</description>
+	<url>http://maven.apache.org</url>
+
+	<parent>
+		<!-- 它指定了 Spring Boot 父 POM，并包含常见组件的定义。您不需要手动配置这些组件 -->
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.2.RELEASE</version>
+		
+		<!-- 
+		已有一个 <parent> 元素，或者如果不想使用它，指定 repackage 目标
+		<executions>
+            <execution>
+                <goals>
+                    <goal>repackage</goal>
+                </goals>
+            </execution>
+        </executions>
+		 -->
+	</parent>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<!-- 该应用程序是 Web 应用程序。Spring Boot 会相应地形成自己的观点 
+				其中spring-boot-starter-web不仅包含spring-boot-starter,还自动开启了web功能-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<!-- 不想使用 Tomcat，而是想使用 Jetty
+			<exclusions>
+	            <exclusion>
+	                <groupId>org.springframework.boot</groupId>
+	                <artifactId>spring-boot-starter-tomcat</artifactId>
+	            </exclusion>
+	        </exclusions>
+	         -->
+		</dependency>
+		
+		<!-- 不想使用 Tomcat，而是想使用 Jetty
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-jetty</artifactId>
+	    </dependency>
+		-->
+		<!-- 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+ -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+	</dependencies>
+	
+	 <build>
+        <plugins>
+            <plugin>
+            	<!-- 告诉 Maven 使用 spring-boot-maven-plugin 插件生成该 Spring Boot 应用程序 -->
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

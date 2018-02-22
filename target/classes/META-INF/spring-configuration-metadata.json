@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.study.pojo.GirlProperties",
+      "name": "girl",
+      "type": "com.study.pojo.GirlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.study.pojo.GirlProperties",
+      "name": "girl.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.study.pojo.GirlProperties",
+      "name": "girl.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
