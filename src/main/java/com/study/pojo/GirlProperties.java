@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class GirlProperties {
 
     private String name;
-    private int age;
+    private int age;//
 
     public String getName() {
         return name;

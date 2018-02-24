@@ -2,12 +2,32 @@
   "hints": [],
   "groups": [
     {
+      "sourceType": "com.study.pojo.User",
+      "name": "com.forezp",
+      "type": "com.study.pojo.User"
+    },
+    {
       "sourceType": "com.study.pojo.GirlProperties",
       "name": "girl",
       "type": "com.study.pojo.GirlProperties"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my",
+      "type": "com.study.pojo.MyBean"
     }
   ],
   "properties": [
+    {
+      "sourceType": "com.study.pojo.User",
+      "name": "com.forezp.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.study.pojo.User",
+      "name": "com.forezp.name",
+      "type": "java.lang.String"
+    },
     {
       "sourceType": "com.study.pojo.GirlProperties",
       "name": "girl.age",
@@ -16,6 +36,41 @@
     {
       "sourceType": "com.study.pojo.GirlProperties",
       "name": "girl.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.greeting",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.max",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.number",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.uuid",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.study.pojo.MyBean",
+      "name": "my.value",
       "type": "java.lang.String"
     }
   ]
