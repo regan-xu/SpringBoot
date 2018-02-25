@@ -14,8 +14,8 @@ import com.study.pojo.Account;
 
 
 @RestController
-@RequestMapping("/account")
-public class AccountController {
+@RequestMapping("/jdbc")
+public class JdbcController {
 
     @Autowired
     IAccountService accountService;

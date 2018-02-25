@@ -15,3 +15,8 @@ my:
  max: ${random.int(10)}
  value: ${random.value}
  greeting: hi,i'm  ${my.name}
+ 
+ jpa:
+    hibernate:
+      ddl-auto: update  # 第一次简表create  后面用update
+    show-sql: true
