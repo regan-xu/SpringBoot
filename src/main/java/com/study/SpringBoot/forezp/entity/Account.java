@@ -1,15 +1,6 @@
 package com.study.SpringBoot.forezp.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
-import org.springframework.context.annotation.Configuration;
-
-@Entity //通过@Entity 表明是一个映射的实体类
-public class AccountJpa {
-	@Id //表明id
-	@GeneratedValue //字段自动生成
+public class Account {
     private int id ;
     private String name ;
     private double money;
