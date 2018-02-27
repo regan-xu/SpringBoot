@@ -1,4 +1,4 @@
-package com.study.SpringBoot.forezp.c5beatlsql;
+package com.study.SpringBoot.forezp.c05beatlsql;
 
 import java.util.List;
 

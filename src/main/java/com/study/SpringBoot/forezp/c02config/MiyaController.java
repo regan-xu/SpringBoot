@@ -1,4 +1,4 @@
-package com.study.SpringBoot.forezp.c2config;
+package com.study.SpringBoot.forezp.c02config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.study.SpringBoot.forezp.c4jpa;
+package com.study.SpringBoot.forezp.c04jpa;
 
 import java.util.List;
 

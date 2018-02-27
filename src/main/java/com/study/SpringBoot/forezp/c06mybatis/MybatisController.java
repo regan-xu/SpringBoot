@@ -1,4 +1,4 @@
-package com.study.SpringBoot.forezp.c6mybatis;
+package com.study.SpringBoot.forezp.c06mybatis;
 
 import java.util.List;
 

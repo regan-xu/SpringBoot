@@ -1,4 +1,4 @@
-package com.study.SpringBoot.forezp.c3jdbc;
+package com.study.SpringBoot.forezp.c03jdbc;
 
 import java.util.List;
 

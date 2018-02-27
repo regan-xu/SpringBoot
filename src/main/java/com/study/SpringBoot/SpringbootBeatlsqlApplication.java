@@ -28,7 +28,7 @@ import org.springframework.core.io.support.ResourcePatternUtils;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 
 
-@SpringBootApplication
+//@SpringBootApplication
 public class SpringbootBeatlsqlApplication {
 
 	public static void main(String[] args) {
