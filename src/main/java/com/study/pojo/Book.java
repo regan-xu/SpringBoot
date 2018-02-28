@@ -4,8 +4,20 @@ public class Book {
     private long id;
     private String name;
     private double price;
+    
+    public Book() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
-    public long getId() {
+	public Book(long id, String name, double price) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+	}
+
+	public long getId() {
         return id;
     }
 
@@ -28,4 +40,11 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
+
+	@Override
+	public String toString() {
+		return "book: id->"+id+" name->"+name+" price->"+price;
+	}
+    
+    
 }
